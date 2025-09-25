@@ -1,0 +1,49 @@
+# variable=it is a reusable container for storing a value 
+
+age=25
+print("the man"+ str(age) +"aged")     #using type casting
+print("the man",age,"aged")            #using different arguments
+print(f"the man{age}aged")             #using f -string
+
+#integer
+age=25
+play=2
+goal=5
+print(f"nikki{age}aged play{play} wins goal{goal}")#
+nikki25aged play2 wins goal5
+
+#float
+a=1.2
+b=3.5
+print(f"{a} and{b}")#
+1.2 and3.5
+
+#string
+a="nikki"
+b="mani"
+c="123erd"
+print(f"{a}and{b}and{c}")             # strings contain in double quotes or single quotes wither srings or numbers
+nikkiandmaniand123erd
+
+#boolen=true or false T and F in captial
+n=True
+g=False
+print(f"{n}and {g}")
+Trueand False
+
+if n:
+     print("n")
+else:
+     print("g")
+n
+
+
+
+
+
+
+
+
+
+
+
